@@ -10,11 +10,16 @@
   <link rel="icon" href="images/arrow.png">
 </head>
   <body>
-    <div class = "sidebar">
+    <div id = "sidebar">
+      <ul class = "text-center">
+        <li><a href="#profile"><i class="fa fa-home" aria-hidden="true"></i></a></li>
+        <li><a href="#movies"><i class="fa fa-film" aria-hidden="true"></i></a></li>
+        <li><a href="#footer"><i class="fa fa-arrow-down" aria-hidden="true"></i></a></li>
+      </ul>
     </div>
     <div class = "page-content">
       <div class = container>
-        <div class = "card text-center">
+        <div class = "card text-center" id="profile">
           <img src="images/loicchesneau.png" alt="Loic Chesneau" id = "profile-pic">
           <h1>
             Loïc Chesneau
@@ -33,7 +38,7 @@
             <li><i class="fab fa-instagram"></i><a href="http://instagram.com/loicloiciolciol" target="_blank"><br>Instagram</a></li>
           </ul>
         </div>
-        <div class = "card text-center">
+        <div class = "card text-center" id="movies">
           <table>
             <tbody>
               <tr>
@@ -62,7 +67,7 @@
           </table>
         </table>
       </div>
-      <div class = "card text-center">
+      <div class = "card text-center" id="footer">
         <h3 class = text-center>
           About
         </h3>
